@@ -14,7 +14,7 @@
 <body>
 <h1 class="text-center my-3">Register Form</h1>
 <div class="container">
-<form method="post" action="Test1">
+<form method="post" action="Test2">
 <div class="form-group">
     <label >Name</label>
     <input type="text" class="form-control"  placeholder="Enter name" name="name">
