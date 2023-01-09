@@ -39,22 +39,26 @@ public class Test1 extends HttpServlet {
 		
 		//out.print(name);
 		
-		Student s1 = new Student();
-		s1.setName(name);
-		s1.setCity(city);
+//		Student s1 = new Student();
+//		s1.setName(name);
+//		s1.setCity(city);
+//		
+//		
+//		Library l1 = new Library();
+//		l1.setB_name(Book);
+//		
+//		s1.setLib(l1);
+//		l1.setStud(s1);
+//		
+//		em.persist(s1);
 		
-		
-		Library l1 = new Library();
-		l1.setB_name(Book);
-		
-		s1.setLib(l1);
-		l1.setStud(s1);
-		
-		em.persist(s1);
-		out.print("Added Successfully.....");
-		em.getTransaction().commit();
-		em.close();
-		emf.close();
+//		Student s = em.find(Student.class,21);
+//		em.remove(s);
+//		
+//		out.print("Deleted Successfully.....");
+//		em.getTransaction().commit();
+//		em.close();
+//		emf.close();
 	}
 
 	/**
