@@ -7,9 +7,20 @@
 			<servlet-name>Test</servlet-name>
 			<servlet-class>com.unique.main.Test</servlet-class>
 		</servlet>
+		<servlet>
+			<description>
+			</description>
+			<display-name>Test1</display-name>
+			<servlet-name>Test1</servlet-name>
+			<servlet-class>com.unique.main.Test1</servlet-class>
+		</servlet>
 		<servlet-mapping>
 			<servlet-name>Test</servlet-name>
 			<url-pattern>/Test</url-pattern>
+		</servlet-mapping>
+		<servlet-mapping>
+			<servlet-name>Test1</servlet-name>
+			<url-pattern>/Test1</url-pattern>
 		</servlet-mapping>
 		
 	</web-app>
